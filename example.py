@@ -6,6 +6,6 @@ class User(BaseModel):
     email: str
 
 # create a user
-user = User(name="arghun", age=31, email="arghun.developer@gmail.com")
+user = User(name="arghun", age="31", email="arghun.developer@gmail.com")
 
-print(user.name)
+print(user)
